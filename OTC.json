@@ -1,0 +1,38 @@
+{
+  "order-book": {
+    "market": "BTC",
+    "currency": "BRL",
+    "bid": [
+      {
+        "price": 999999,
+        "order_amount": 1,
+        "order_value": 999999,
+        "converted_from": "BRL",
+        "timestamp": 1607692433
+      },
+      {
+        "price": 1000000,
+        "order_amount": 1,
+        "order_value": 1000000,
+        "converted_from": "BRL",
+        "timestamp": 1607693889
+      }
+    ],
+    "ask": [
+      {
+        "price": 91550,
+        "order_amount": 0.07820217,
+        "order_value": 7159.41,
+        "converted_from": "BRL",
+        "timestamp": 1607693024
+      },
+      {
+        "price": 92039.88,
+        "order_amount": 0.006,
+        "order_value": 552.24,
+        "converted_from": "USD",
+        "timestamp": 1607693739
+      }
+    ]
+  }
+}
