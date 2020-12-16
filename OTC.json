@@ -4,16 +4,16 @@
     "currency": "BRL",
     "bid": [
       {
-        "price": 999999,
+        "price": 1000,
         "order_amount": 1,
-        "order_value": 999999,
+        "order_value": 1000,
         "converted_from": "BRL",
         "timestamp": 1607692433
       },
       {
-        "price": 1000000,
+        "price": 2000,
         "order_amount": 1,
-        "order_value": 1000000,
+        "order_value": 2000,
         "converted_from": "BRL",
         "timestamp": 1607693889
       }
