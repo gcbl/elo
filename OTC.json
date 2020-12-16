@@ -20,16 +20,16 @@
     ],
     "ask": [
       {
-        "price": 91550,
-        "order_amount": 0.07820217,
-        "order_value": 7159.41,
+        "price": 1000000,
+        "order_amount": 0.5,
+        "order_value": 500000,
         "converted_from": "BRL",
         "timestamp": 1607693024
       },
       {
-        "price": 92039.99,
-        "order_amount": 0.006,
-        "order_value": 552.24,
+        "price": 2000000,
+        "order_amount": 0.5,
+        "order_value": 1000000,
         "converted_from": "USD",
         "timestamp": 1607693739
       }
