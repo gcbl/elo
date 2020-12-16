@@ -24,14 +24,14 @@
         "order_amount": 1,
         "order_value": 100365.87,
         "converted_from": "BRL",
-        "timestamp": 1607699991
+        "timestamp": 1607700000
       },
       {
         "price": 100377.46,
         "order_amount": 0.5,
         "order_value": 50188.73,
         "converted_from": "BRL",
-        "timestamp": 1607699991
+        "timestamp": 1607700000
       }
     ]
   }
