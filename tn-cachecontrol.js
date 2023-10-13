@@ -21,7 +21,7 @@ function setaVersaoJSONPCallback(data) {
 }
 
 // URL do script externo que você deseja carregar
-var versaoUrl = "https://raw.githubusercontent.com/gcbl/elo/37233d82a7fdec576ad24c5d4653cc3d21ad344c/versao?callback=setaVersaoJSONPCallback";
+var versaoUrl = "https://cdn.jsdelivr.net/gh/gcbl/elo/master/versao?callback=setaVersaoJSONPCallback";
 
 // Carregando o script dinamicamente
 loadScript(versaoUrl);
