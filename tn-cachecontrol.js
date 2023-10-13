@@ -1,5 +1,11 @@
 versao = 0;
 
+function gerarNumeroAleatorio() {
+    const instanteAtual = new Date().getTime();
+    const numeroAleatorio = Math.floor(Math.random() * instanteAtual);
+    return numeroAleatorio;
+}
+
 // Função para carregar o script dinamicamente
 function loadScript(url, callback) {
    console.log("Vai carregar o script:");
@@ -21,7 +27,7 @@ function setaVersaoJSONPCallback(data) {
 }
 
 // URL do script externo que você deseja carregar
-var versaoUrl = "https://cdn.jsdelivr.net/gh/gcbl/elo/master/versao?callback=setaVersaoJSONPCallback";
+var versaoUrl = "https://cdn.jsdelivr.net/gh/gcbl/elo/versao?callback=setaVersaoJSONPCallback&rnd" + gerarNumeroAleatorio();
 
 // Carregando o script dinamicamente
 loadScript(versaoUrl);
