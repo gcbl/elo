@@ -27,7 +27,7 @@ function setaVersaoJSONPCallback(data) {
 }
 
 // URL do script externo que você deseja carregar
-var versaoUrl = "https://cdn.jsdelivr.net/gh/gcbl/elo/versao?callback=setaVersaoJSONPCallback&rnd" + gerarNumeroAleatorio();
+var versaoUrl = "https://cdn.jsdelivr.net/gh/gcbl/elo/versao?callback=setaVersaoJSONPCallback&rnd=" + gerarNumeroAleatorio();
 
 // Carregando o script dinamicamente
 loadScript(versaoUrl);
